@@ -1,0 +1,22 @@
+{
+  "name": "MyCustomLibrary01",
+  "version": "0.1.0",
+  "summary": "A short description of MyCustomLibrary01.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/your_name/MyCustomLibrary01",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "your_name": "your_email"
+  },
+  "source": {
+    "git": "https://github.com/your_name/MyCustomLibrary01.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyCustomLibrary01/Classes/**/*"
+}
