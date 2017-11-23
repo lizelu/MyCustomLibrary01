@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08360E4A2F122D47059CB2F3D4C60B04 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE4D003E968524D42FEDB06A317E29 /* ReplaceMe.m */; };
 		2E57362B6FD2A7611E99E493A6AE7792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2FA3A8594385CD60F98A821DF14BC28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		491A3CCC17B32C6FF792F91E88F1FC49 /* Pods-MyCustomLibrary01_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBD0692C517862DC8352EEB64AA1ED /* Pods-MyCustomLibrary01_Tests-dummy.m */; };
@@ -17,6 +16,8 @@
 		BAFBEDC8E8D0FCA957CBA216CFFE01FF /* Pods-MyCustomLibrary01_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C59123AB04B393C79E7E1E36E6BF702 /* Pods-MyCustomLibrary01_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCAAD596F481AC98A674F6356C28821C /* Pods-MyCustomLibrary01_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E21D4015995F82926C77D66B74E800C5 /* Pods-MyCustomLibrary01_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCAFB5C0B696894EF8C98DE49E4BD55A /* Pods-MyCustomLibrary01_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C46A5089CEDEE7AEA1537A526051B9 /* Pods-MyCustomLibrary01_Example-dummy.m */; };
+		F425481E1FC667A700653E53 /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = F425481C1FC667A700653E53 /* Hello.h */; };
+		F425481F1FC667A700653E53 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = F425481D1FC667A700653E53 /* Hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,24 +35,23 @@
 		05B4CEE4FD7CC214FFF043C2F81E8E94 /* Pods-MyCustomLibrary01_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCustomLibrary01_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		07265FC89E084F88B6DB20494254B196 /* MyCustomLibrary01-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyCustomLibrary01-prefix.pch"; sourceTree = "<group>"; };
 		0C59123AB04B393C79E7E1E36E6BF702 /* Pods-MyCustomLibrary01_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyCustomLibrary01_Example-umbrella.h"; sourceTree = "<group>"; };
-		167ED62998433DBF32039EE46BBB94E2 /* MyCustomLibrary01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyCustomLibrary01.framework; path = MyCustomLibrary01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		167ED62998433DBF32039EE46BBB94E2 /* MyCustomLibrary01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCustomLibrary01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		203A6D81260CFD9C27581ABB0E312E72 /* Pods-MyCustomLibrary01_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCustomLibrary01_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		21D87C8A8AEB30AA48C211F9759E1946 /* Pods-MyCustomLibrary01_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyCustomLibrary01_Tests.modulemap"; sourceTree = "<group>"; };
-		2ADE4D003E968524D42FEDB06A317E29 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyCustomLibrary01/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		21D87C8A8AEB30AA48C211F9759E1946 /* Pods-MyCustomLibrary01_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyCustomLibrary01_Tests.modulemap"; sourceTree = "<group>"; };
 		33C46A5089CEDEE7AEA1537A526051B9 /* Pods-MyCustomLibrary01_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyCustomLibrary01_Example-dummy.m"; sourceTree = "<group>"; };
 		37D5D3AD2BCEC420D4ECAF3DD4181A95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48C637F186CDD5712EE0CDEFE0C78336 /* Pods_MyCustomLibrary01_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyCustomLibrary01_Example.framework; path = "Pods-MyCustomLibrary01_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C637F186CDD5712EE0CDEFE0C78336 /* Pods_MyCustomLibrary01_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCustomLibrary01_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C90EF24DD8D95883F4A1B691145A29 /* MyCustomLibrary01.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyCustomLibrary01.xcconfig; sourceTree = "<group>"; };
-		54D260E90235EE3B16D15C210177128C /* MyCustomLibrary01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MyCustomLibrary01.modulemap; sourceTree = "<group>"; };
+		54D260E90235EE3B16D15C210177128C /* MyCustomLibrary01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MyCustomLibrary01.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		762FC46028535911848F3EF28A081E87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8916620209938838779BFF903B9ECC8F /* Pods-MyCustomLibrary01_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCustomLibrary01_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D8FB1B5B6FE8D16C4718593633FC8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F75F111A42C55A34E99DE222EC7FC5 /* Pods-MyCustomLibrary01_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyCustomLibrary01_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A262FD9D403E0389418A87C9BE60609C /* MyCustomLibrary01-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyCustomLibrary01-umbrella.h"; sourceTree = "<group>"; };
-		B3640D46F82DE210D87541EB6F6796EF /* Pods_MyCustomLibrary01_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyCustomLibrary01_Tests.framework; path = "Pods-MyCustomLibrary01_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8A8A85E1128FB4F1D2922AC540D2258 /* Pods-MyCustomLibrary01_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MyCustomLibrary01_Example.modulemap"; sourceTree = "<group>"; };
+		B3640D46F82DE210D87541EB6F6796EF /* Pods_MyCustomLibrary01_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCustomLibrary01_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A8A85E1128FB4F1D2922AC540D2258 /* Pods-MyCustomLibrary01_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyCustomLibrary01_Example.modulemap"; sourceTree = "<group>"; };
 		BDFF05EFE89813976CA13008FF607D0A /* Pods-MyCustomLibrary01_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCustomLibrary01_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE01BC5A937B286A976A9F0B3B2E2434 /* Pods-MyCustomLibrary01_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCustomLibrary01_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C7EBD0692C517862DC8352EEB64AA1ED /* Pods-MyCustomLibrary01_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyCustomLibrary01_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		E9CADFE682CF2772D916BCC206CF9FC4 /* Pods-MyCustomLibrary01_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCustomLibrary01_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA39CC20660FA54E9C19B1C3DAAA5AF8 /* Pods-MyCustomLibrary01_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyCustomLibrary01_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3599017368CE3F39954B21D27A081BF /* Pods-MyCustomLibrary01_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCustomLibrary01_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F425481C1FC667A700653E53 /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		F425481D1FC667A700653E53 /* Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 		F6DBB29CB75C4993FCA1E25377FC360D /* Pods-MyCustomLibrary01_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCustomLibrary01_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,7 @@
 		0319202C14348B0E651D8BB27A749391 /* MyCustomLibrary01 */ = {
 			isa = PBXGroup;
 			children = (
-				2ADE4D003E968524D42FEDB06A317E29 /* ReplaceMe.m */,
+				F425481B1FC666F100653E53 /* Hello */,
 				3FBD6FB439B6D2A381116A3B15BD39AE /* Support Files */,
 			);
 			name = MyCustomLibrary01;
@@ -188,6 +190,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F425481B1FC666F100653E53 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				F425481C1FC667A700653E53 /* Hello.h */,
+				F425481D1FC667A700653E53 /* Hello.m */,
+			);
+			name = Hello;
+			path = MyCustomLibrary01/Classes/Hello;
+			sourceTree = "<group>";
+		};
 		FB604F98E52B104D2F66AC361864D1AC /* Pods-MyCustomLibrary01_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B43D9F0B8D1402F1F36A146594E7993 /* MyCustomLibrary01-umbrella.h in Headers */,
+				F425481E1FC667A700653E53 /* Hello.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F425481F1FC667A700653E53 /* Hello.m in Sources */,
 				93EF2FA8DDC79CDFCAFCA5D70D2875CE /* MyCustomLibrary01-dummy.m in Sources */,
-				08360E4A2F122D47059CB2F3D4C60B04 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
