@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MyCustomLibrary01: 82cda3e9c08fb7ad8a49b14e0c6544ebd453892c
+  MyCustomLibrary01: c099713e69c07f82c893127c4e52e01dadb25f20
 
 PODFILE CHECKSUM: 53ca69ce373b6de5d8b5a42cf284aac99c6a9e77
 
